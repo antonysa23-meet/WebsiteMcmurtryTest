@@ -534,9 +534,9 @@
 }
 
 .sm-category-title-button[aria-expanded="true"] {
-  background: rgba(139, 111, 199, 0.2);
-  border-color: var(--accent-orange);
-  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.2);
+  background: rgba(255, 215, 0, 0.15);
+  border-color: #FFD700;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
 }
 
 .sm-category-title {
@@ -544,7 +544,7 @@
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent-orange);
+  color: #FFD700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   position: relative;
@@ -553,16 +553,16 @@
 }
 
 .sm-category-title-button[aria-expanded="true"] .sm-category-title {
-  text-shadow: 0 0 15px rgba(255, 107, 53, 0.6);
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   animation: titleGlow 1.5s ease infinite;
 }
 
 @keyframes titleGlow {
   0%, 100% {
-    text-shadow: 0 0 15px rgba(255, 107, 53, 0.6);
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   }
   50% {
-    text-shadow: 0 0 25px rgba(255, 107, 53, 0.9), 0 0 35px rgba(255, 107, 53, 0.5);
+    text-shadow: 0 0 25px rgba(255, 215, 0, 0.9), 0 0 35px rgba(255, 215, 0, 0.5);
   }
 }
 
@@ -579,7 +579,7 @@
 
 .sm-category-arrow.expanded {
   transform: rotate(90deg);
-  color: var(--accent-orange);
+  color: #FFD700;
   animation: arrowPulse 0.6s ease;
 }
 
