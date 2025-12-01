@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Box, Flex, Image } from 'rebass';
-import './Sponsor.css';
+import './sponsor.css';
 import { ourSponsors } from './sponsors.json';
 
 const tiers = [
